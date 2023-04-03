@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./script.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,6 +14,11 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/08a5f80e75.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Personal Page Stepan Nimchuk</title>
   </head>
   <body>
@@ -66,7 +72,7 @@
       <hr />
 
       <div class="portfolio"></div>
-      <h2 class="my-description-3">My Portfolio</h2>
+      <h2 class="my-description-3">My Portfolio - Click to Check!</h2>
       <div class="port-container">
         <h3 class="text-works">Simple HTML, CSS, JavaScript works</h3>
         <div class="work-list">
@@ -99,7 +105,7 @@
           </li>
         </div>
         <h3 class="text-works">Advanced JavaScript</h3>
-        <ul class="work-list">
+        <div class="work-list">
           <li class="work-li">
             <a href="https://bankist-js-stepan72.netlify.app/">
               <img
@@ -109,7 +115,7 @@
               />Bankist</a
             >
           </li>
-          <li>
+          <li class="work-li">
             <a href="https://mapty-app-stepan72.netlify.app/"
               ><img
                 class="site-img"
@@ -118,7 +124,7 @@
               />Mapty</a
             >
           </li>
-          <li>
+          <li class="work-li">
             <a href="https://forkify-stepan72.netlify.app/">
               <img
                 class="site-img"
@@ -127,28 +133,28 @@
               />Forkify</a
             >
           </li>
-        </ul>
+        </div>
         <h3 class="text-works">React Works</h3>
-        <ul class="work-list">
-          <li>
+        <div class="work-list-react">
+          <li class="work-li">
             <a href="https://keeper-react-stepan72.netlify.app/"
               ><img
                 class="site-img"
-                src="./site-images/forkify-site-big.png"
-                alt="picture of forkify site"
+                src="./site-images/keeper-react-big.png"
+                alt="picture of keeper-react site"
               />Keeper</a
             >
           </li>
-          <li>
+          <li class="work-li">
             <a href="https://food-order-react-stepan72.netlify.app/"
               ><img
                 class="site-img"
-                src="./site-images/forkify-site-big.png"
-                alt="picture of forkify site"
+                src="./site-images/food-order-react-big.png"
+                alt="picture of food-order site"
               />Food Order</a
             >
           </li>
-        </ul>
+        </div>
       </div>
       <hr />
 
@@ -158,7 +164,12 @@
         <p class="text-contact">
           If you have an interesting offer, don't hesitate to contact me!
         </p>
-        <a class="btn" href="mailto:st.nim@list.ru">CONTACT ME</a>
+        <a class="btn" href="mailto:st.nim@list.ru"
+          >Contact me via Post <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a class="btn" href="https://t.me/StepanNimchuk"
+          >Contact me via Telegram <i class="fa-brands fa-telegram"></i>
+        </a>
       </div>
     </div>
 
@@ -166,10 +177,19 @@
       <a
         class="footer-link"
         href="https://www.linkedin.com/in/stepan-nimchuk-b05a15127/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://github.com/Stepan72">GitHub</a>
-      <a class="footer-link" href="https://github.com/Stepan72/">Website</a>
+        >LinkedIn <i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a class="footer-link" href="https://github.com/Stepan72"
+        >GitHub
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a
+        class="footer-link"
+        href="https://hh.ru/resume/9ff18480ff0bdac6ea0039ed1f486257714145"
+        >HeadHunter profile
+        <i class="fa-solid fa-person"></i>
+      </a>
       <p class="copyright-text">© Made by Stepan Nimchuk, 2023.</p>
     </div>
   </body>

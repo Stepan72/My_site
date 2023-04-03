@@ -152,7 +152,7 @@ a {
 }
 
 a:hover {
-  color: rgb(205, 133, 51);
+  color: blue;
 }
 
 .copyright-text {
@@ -170,6 +170,7 @@ a:hover {
   display: flex;
   width: 1350px;
   margin: auto;
+  align-items: center;
 }
 
 .work-li {
@@ -188,4 +189,12 @@ a:hover {
   border-radius: 2%;
   width: 400px;
   height: 230px;
+}
+
+.work-list-react {
+  list-style: none;
+  display: flex;
+  width: 900px;
+  margin: auto;
+  align-items: center;
 }
