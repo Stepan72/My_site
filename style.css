@@ -224,3 +224,30 @@ a:hover {
   width: 500px;
   height: 380px;
 }
+
+.navbar {
+  background-color: #66bfbf;
+  height: 50px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar-list li {
+  margin: 15px;
+  align-items: center;
+}
+
+.navbar-list a {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-weight: 900;
+}
+
+.navbar-list a:hover {
+  color: blue;
+}
